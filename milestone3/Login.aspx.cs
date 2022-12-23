@@ -53,12 +53,12 @@ namespace milestone3
 
             if (success.Value.ToString() == "0")
             {
-                Response.Write("Hello");
-                Response.Redirect("HomePage.aspx");
+      
+                Response.Redirect("Register.aspx");
 
 
             }
-            else Response.Write("noo");
+            else Response.Write("");
 
 
 

@@ -13,7 +13,7 @@
             <br />
             <br />
             clubname:</div>
-        <asp:TextBox ID="clubname" runat="server"></asp:TextBox>
+        <asp:TextBox ID="clubname" runat="server" OnTextChanged="clubname_TextChanged"></asp:TextBox>
         <br />
         clublocation :<br />
         <asp:TextBox ID="clublocation" runat="server"></asp:TextBox>

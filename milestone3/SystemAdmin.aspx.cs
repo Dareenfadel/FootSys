@@ -32,5 +32,15 @@ namespace milestone3
         {
             Response.Redirect("AddStadium.aspx");
         }
+
+        protected void Button4_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("DeleteStadium.aspx");
+        }
+
+        protected void Button5_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Blockfan.aspx");
+        }
     }
 }

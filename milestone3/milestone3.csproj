@@ -68,14 +68,30 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="addclub.aspx" />
+    <Content Include="addMatch.aspx" />
     <Content Include="AddStadium.aspx" />
     <Content Include="App_Data\Database1.mdf" />
     <Content Include="App_Data\Database1_log.ldf">
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
+    <Content Include="AssociationManager.aspx" />
+    <Content Include="Blockfan.aspx" />
+    <Content Include="clubrepresentativerregister.aspx" />
+    <Content Include="clubrepresntative.aspx" />
+    <Content Include="allclubsnevermatched.aspx" />
     <Content Include="DeleteClub.aspx" />
+    <Content Include="deletematch.aspx" />
+    <Content Include="DeleteStadium.aspx" />
+    <Content Include="Fan.aspx" />
+    <Content Include="Fanregister.aspx" />
     <Content Include="Login.aspx" />
+    <Content Include="PurchaseTicket.aspx" />
+    <Content Include="Register.aspx" />
+    <Content Include="sportsmanagerregister.aspx" />
+    <Content Include="Stadiummanagerregister.aspx" />
     <Content Include="SystemAdmin.aspx" />
+    <Content Include="Viewplayedmatches.aspx" />
+    <Content Include="Viewupcomingmatches.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -86,6 +102,13 @@
     <Compile Include="addclub.aspx.designer.cs">
       <DependentUpon>addclub.aspx</DependentUpon>
     </Compile>
+    <Compile Include="addMatch.aspx.cs">
+      <DependentUpon>addMatch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addMatch.aspx.designer.cs">
+      <DependentUpon>addMatch.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AddStadium.aspx.cs">
       <DependentUpon>AddStadium.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -93,12 +116,75 @@
     <Compile Include="AddStadium.aspx.designer.cs">
       <DependentUpon>AddStadium.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AssociationManager.aspx.cs">
+      <DependentUpon>AssociationManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AssociationManager.aspx.designer.cs">
+      <DependentUpon>AssociationManager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Blockfan.aspx.cs">
+      <DependentUpon>Blockfan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Blockfan.aspx.designer.cs">
+      <DependentUpon>Blockfan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clubrepresentativerregister.aspx.cs">
+      <DependentUpon>clubrepresentativerregister.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clubrepresentativerregister.aspx.designer.cs">
+      <DependentUpon>clubrepresentativerregister.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clubrepresntative.aspx.cs">
+      <DependentUpon>clubrepresntative.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clubrepresntative.aspx.designer.cs">
+      <DependentUpon>clubrepresntative.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="allclubsnevermatched.aspx.cs">
+      <DependentUpon>allclubsnevermatched.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="allclubsnevermatched.aspx.designer.cs">
+      <DependentUpon>allclubsnevermatched.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DeleteClub.aspx.cs">
       <DependentUpon>DeleteClub.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="DeleteClub.aspx.designer.cs">
       <DependentUpon>DeleteClub.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="deletematch.aspx.cs">
+      <DependentUpon>deletematch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="deletematch.aspx.designer.cs">
+      <DependentUpon>deletematch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteStadium.aspx.cs">
+      <DependentUpon>DeleteStadium.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeleteStadium.aspx.designer.cs">
+      <DependentUpon>DeleteStadium.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Fan.aspx.cs">
+      <DependentUpon>Fan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Fan.aspx.designer.cs">
+      <DependentUpon>Fan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Fanregister.aspx.cs">
+      <DependentUpon>Fanregister.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Fanregister.aspx.designer.cs">
+      <DependentUpon>Fanregister.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
@@ -108,12 +194,54 @@
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PurchaseTicket.aspx.cs">
+      <DependentUpon>PurchaseTicket.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PurchaseTicket.aspx.designer.cs">
+      <DependentUpon>PurchaseTicket.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sportsmanagerregister.aspx.cs">
+      <DependentUpon>sportsmanagerregister.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sportsmanagerregister.aspx.designer.cs">
+      <DependentUpon>sportsmanagerregister.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Stadiummanagerregister.aspx.cs">
+      <DependentUpon>Stadiummanagerregister.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Stadiummanagerregister.aspx.designer.cs">
+      <DependentUpon>Stadiummanagerregister.aspx</DependentUpon>
+    </Compile>
     <Compile Include="SystemAdmin.aspx.cs">
       <DependentUpon>SystemAdmin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="SystemAdmin.aspx.designer.cs">
       <DependentUpon>SystemAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Viewplayedmatches.aspx.cs">
+      <DependentUpon>Viewplayedmatches.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Viewplayedmatches.aspx.designer.cs">
+      <DependentUpon>Viewplayedmatches.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Viewupcomingmatches.aspx.cs">
+      <DependentUpon>Viewupcomingmatches.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Viewupcomingmatches.aspx.designer.cs">
+      <DependentUpon>Viewupcomingmatches.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

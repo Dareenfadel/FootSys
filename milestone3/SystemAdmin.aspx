@@ -14,8 +14,8 @@
                <asp:Button ID="Button1" runat="server" Text="ADD CLUB" OnClick="Button1_Click" Width="209px" />  <hr />
                <asp:Button ID="Button2" runat="server" Text="DELETE CLUB" Width="206px" OnClick="Button2_Click" />   <hr />
                <asp:Button ID="Button3" runat="server" Text="ADD STADIUM" Width="208px" OnClick="Button3_Click" />   <hr />
-               <asp:Button ID="Button4" runat="server" Text="DELETE STADIUM" Width="206px" />  <hr />
-               <asp:Button ID="Button5" runat="server" Text="BLOCK FAN" Width="209px" />   <hr />
+               <asp:Button ID="Button4" runat="server" Text="DELETE STADIUM" Width="206px" OnClick="Button4_Click" />  <hr />
+               <asp:Button ID="Button5" runat="server" Text="BLOCK FAN" Width="209px" OnClick="Button5_Click" />   <hr />
                
                
         

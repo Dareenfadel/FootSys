@@ -9,7 +9,7 @@
 <body>
     <form id="addStadiumform" runat="server">
         <div>
-            Please Enter club details
+            Please Enter Stadium details
             <br />
             <br />
             Stadiumname:</div>

@@ -30,5 +30,10 @@ namespace milestone3
            conn.Close();
             Response.Redirect("SystemAdmin.aspx");
         }
+
+        protected void clubname_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
